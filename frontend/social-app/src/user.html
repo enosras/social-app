@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <title>social app</title>
+    </head>
+    <body bgcolor="orange">
+        <form id="user" method="post">
+            <label>First Name</label>
+            <input type="text" id="f_name" autoCapitalize="enabled"><br></br>
+            <label>Last Name</label>
+            <input type="text" id="l_name"><br></br>
+            <label>City</label>
+            <input type="text" id="location"><br></br>
+            <input type="reset" id="reset" text="RESET">
+            <input type="submit" id="submit" text="SAVE" ><br></br>
+        </form>
+        <script>
+            function save() {
+    
+                document.getElementById("f_name").innerHTML = "Hello JavaScript!"
+            }
+        </script>
+    </body>
+</html>
