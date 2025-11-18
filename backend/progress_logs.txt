@@ -1,0 +1,18 @@
+Nov 15, 2025
+- we set up the framework and Initialized node
+- Created both frontend and backend framework
+
+Nov 16, 2025
+- setup the admin db for authetication purposes...
+- mastered mongodb
+- in the afternoon, created two static pages to capture user data
+- the react component of the project requires attention
+
+- pertaining the efficiency in executing a mern project, I will refer to simple compiled and built app examples
+- we will take about a week figuring how to set up api communication between the front and the back end
+- the database connection is already configured in the server file
+- in some cases, the server file is separated from the database file
+
+
+
+
