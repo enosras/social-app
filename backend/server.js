@@ -1,3 +1,4 @@
+
     require('dotenv').config(); // Load environment variables from .env
     console.log("test 1")
     const express = require('express');
@@ -19,6 +20,15 @@
     app.get('/', (req, res) => {
         res.send('Welcome to your Express server!');
     });
+    
+    //This is the second testing for a simple route
+
+    app.get('/enos', (req, res) => {
+        res.send('Hi Enos Papa millionaire kind man cultured!');
+    });
+
+    app
+    
 
     // Start the server
     app.listen(PORT, () => {
